@@ -6,6 +6,8 @@ Pablo Calahorro Jiménez pcj00004@red.ujaen.es
 
 Paul Paillacho Pozo ppp00031@red.ujaen.es
 
+Adrián García Belmonte agb00067@red.ujaen.es
+
 ---COPIAR REPOSITORIO
 
 git clone https://github.com/PablMangione/SEUpr1
