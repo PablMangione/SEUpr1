@@ -269,7 +269,7 @@ export default function App() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#F0F4F7',
+    backgroundColor: '#F0F8FF', // Azul casi blanco
   },
   container: {
     padding: 20,
@@ -282,11 +282,13 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   card: {
-    backgroundColor: '#FFF',
+    backgroundColor: '#B3E5FC', // Azul clarito para cada item
     width: '100%',
     borderRadius: 10,
     padding: 15,
     marginVertical: 10,
+    borderWidth: 1,        // Agrega borde
+    borderColor: '#000',   // Color de borde negro
     shadowColor: '#000',
     shadowOpacity: 0.1,
     shadowRadius: 8,
@@ -316,10 +318,10 @@ const styles = StyleSheet.create({
     marginHorizontal: 5,
   },
   buttonStart: {
-    backgroundColor: '#34C759',
+    backgroundColor: '#81C784', // Verde más suave
   },
   buttonStop: {
-    backgroundColor: '#FF3B30',
+    backgroundColor: '#FF8A80', // Rojo más suave
   },
   buttonText: {
     color: '#FFF',
@@ -327,3 +329,4 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
 });
+
